@@ -1,0 +1,101 @@
+
+
+Landing Page:
+
+a. This page looks great. The two titles I would reconsider are 'Arrange Your Content' and the subheading under 'Bootstrap Your Website,' that says 'Use Bootstrap to build professional pages faster.' 
+
+As a hypothetical beginner, I am unsure what 'Arrange Your Content means,' and it is still unclear what Bootstrap is based on the subheading. We might want to explain this with the words 'Design Framework.' 
+
+Though an experienced developer might be familiar with these terms, a beginner may not know what the difference between the last three sections really is, so precision would help.
+
+
+
+1. Structure Your Page:
+
+
+a. Very nice layout, though initially I am unsure where to navigate. There are a few options: to tap each one of the buttons to add HTML and CSS, to scroll down, or to click on Build a Professional Web at the top which has a down arrow. 
+
+I understand that I'm supposed to scroll, but it is unclear what I am supposed to do in each one of these sections. 
+
+	Two things would help here:
+
+	i. Directions. A section that gives me an overview of what the student will do, such as a box that can be dismissed once read. 
+
+	ii. Labeling and Enlarging the Dots. Adding clearly numbered and labeled sections to the dots on the side would help. When one hovers over a dot, the topic appears large and clear. 
+
+Note: I really enjoyed using this layout once I got the hang of it!  Some clarity in the beginning would really help users navigate the content smoothly, and would make the content overall more effective.  
+
+
+b. Head and Body. It would be helpful to add a section that covers the head and body topics in HTML. This would include what goes in the head, what goes in the body, and mention that most of the tags will go in the body. 
+
+
+c. Div and Span. Here it would be helpful to have a section on div and span tags. After going through the remaining CSS content I did not see this, but div tags are such a vital part of HTML and should definitely be included. 
+
+
+d. Forms. A simple form would be helpful, since they come up over an over again in web development as well as Bootstrap. This can be demonstrated with the most basic of all forms that we see in HTML. 
+
+
+e. Unordered Lists. This is great, though the dropdown should include information on the alternative Ordered List, which will also be useful for users. 
+
+
+
+2. Style Your Page: 
+
+This section seems really comprehensive, which is great because it's quite a lot of information to cover! I really like how the section focused on 8 main CSS properties that the user will come across often. 
+
+
+a. CSS Rule. I really like how the section clearly lays out the syntax for a CSS Rule. This is enormously helpful and a great way to start. 
+
+
+b. Class Selectors (and ID Selectors). This is a nice format to cover class selectors, though I wonder if it might also be worthwhile to cover ID selectors as well since they are also an important part of web development? It would also be helpful to have one line covering when class selectors would be appropriate and when ID selectors would be appropriate. 
+
+
+c. Color Property. I really like the dropdown labeled, 'How do RGB Values and Hex Numbers work'. Most importantly, this can be used in other sections on this same page as described below. 
+
+
+d. Font Family. I think the dropdown is useful here, but the title of it can be shortened to reduced the amount of text that appears. A second dropdown can be included that lists some of the most common web fonts. This is enormously helpful, since some fonts are preferable for web development and some not. 
+
+
+e. Font Size. Here another dropdown would be useful indicating the different ways of representing font size, such as em, px, pt, and percent. We can stick with one, but perhaps show that the user may run into a few representations of font-size and what might be preferable. 
+
+
+3. Arrange Your Content
+
+a. It's great to see this section because sometimes this gets lumped together with basic CSS styling. The first portion of this is very helpful with the diagram of the current Airbnb layout. 
+
+
+b. Display Property. Really nice example on the block versus the Inline properties. One thing I'd be confused about as a beginner is when it might be right to use either. Perhaps this can be summed up in one line?
+
+
+c. Position and Float Properties. These are excellent examples again. One thing I would be unclear about as a beginner is when I use the Position property versus the Float. Are they interchangeable or is one better to use in certain cases? Again one line summarizing this would help tie it all together nicely! 
+
+
+e. Margin, Border, Padding. An alternative way to structure the CSS content would be to add the margin, border and padding properties based on the CSS box model in this section. The current examples in the previous 'Style Your Page' section are excellent, though this would be a workable alternative if we wanted to consider logical content flow. Both work, in my opinion.  
+
+
+
+4. Bootstrap Your Website
+
+a. It's great to see the section on Bootstrap, but it would be great to have some idea of the added benefits of Bootstrap vs vanilla CSS. The pages look so similar, what will using a Framework do for me and why should I know about it? 
+
+
+b. Grid System (and Responsive Design). Great to see a simple intro to the Grid System here, since this topic is pretty confusing for newbies. Based on the current content, I'm still not quite sure what the purpose of the Grid System is. Can't I just develop without a grid system? How does it help me?
+
+What would be helpful here is an introduction on role of the grid system in Bootstrap. A first section might be a simple, beginner introduction to the grid system and the different sizes xs, s, m, l, etc. A second section would be on its role in responsive design, so that if we move the corner of our browser we can view our page as a tablet or mobile device. 
+
+Alternatively, there can be a fully separate practice section on Responsive Design. 
+
+
+c. Buttons. The button example is great, very simple and straight forward, with an excellent display. One important way this can really sink in is to have a review again of the syntax for adding bootstrap classes. This would be a plain and simple layout of an element and then the class applied to that element, just as was done for the HTML heading. This would be a great starting point before going deeper the Bootstrap classes like btn, jumbotron, etc. 
+
+
+d. Jumbotron. It would be great to have a section on the jumbotron, since this is another large component of Bootstrap. This could be a simple section on Bootstrap's jumbotron class, that asks the user to add an image.
+
+
+e. Navbar. This also might be good to add as well, since creating a navbar is an important part of Bootstrap and is on the AirBnb website. 
+
+
+
+
+
+

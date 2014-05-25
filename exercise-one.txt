@@ -1,0 +1,112 @@
+
+Topic: jQuery Events 
+
+
+1. What is an event?
+
+One of the most powerful features of JQuery is its ability to work with events in a simplified, uniform manner. 
+
+So what is an event? 
+
+An event in JQuery is any action that the user or browser performs that triggers a response. 
+
+User events often involve a mouse interaction such as click or a double-click, or hovering over an element, or a keyboard interaction like pressing up or down, or the spacebar. These are actions that a user performs on a page. 
+
+Browser events are mainly events that our page performs, such as when our page or window loads. These are actions that our browser does on its own. 
+
+It's that easy, and in our code when we see a mouse, keyboard, or browser action, such as .mouseover(), .hover(), and .click(), or .keypress(), it is quite likely we'll be dealing with an event! 
+
+You can think of a JQuery event as the communication between a user and website or web application. Most of our JQuery code will run in response to these user and browser events, so they are important to know about.
+
+
+
+2. How do you bind an event to an element (mouse or keyboard)?
+
+Event binding allows us to attach event handlers to the elements or 'things' on our page. There are two common ways we can do this: 
+
+
+The first is with the .on() and .off() function which are used to attach and remove events.
+
+.on() is used to attach an event to one or more selected elements on a page
+
+.off() is used to remove this event handler 
+
+Written all together, this code usually has syntax that looks like this:
+
+$(target).on(event, handlerfunction);
+
+The target is the element we are interacting with. The event is usually a mouse or keyboard action, such as a hover or keystroke. The handler function is the function that will be triggered when the  event happens. It is the code that we want to execute! 
+
+
+The second and most widely used way to bind an event handler is to use the mouse and keyboard events provided by the JQuery library.
+
+You'll probably encounter this technique more often, and you can think of the syntax like this: 
+
+$(target).event() or 
+$(target).event(handlerfunction)
+
+The target again is the element or 'thing' we are interacting with, the event is the custom JQuery code used to describe the event the user or browser executes, such as .click(), .keypress() or .mouseup(). The handler function is an action we want to trigger as we interact with our target element, such as a fade or animation. 
+
+We'll mostly be using this latter way, but it's good to be familiar with both. Now you're on a roll!  
+
+
+
+3. Tie it all together in a real world applied example.
+
+ Note: For the following, you will need to load the index.html file in the browser. The complete code is in the script.js file, which can be executed directly on index.html in our browser. 
+
+ Below are four questions for a user to execute on a square in index.html. The associated answer is written underneath. 
+
+
+a. 
+	
+	 Q: Change the square's color to blue as the user mouses over it, and restore the original color as the mouse leaves the square.
+
+	 A: In script.js, we'll add our document.ready function at the top to tell our browser to execute the code as soon as it loads.  Then within the document.ready function, we'll execute the custom JQuery and mouseover and mouseleave events on our target divs, which will add and remove the blue class based on their associated functions. 
+
+
+		$(document).ready(function() {
+		    $('div').mouseover(function() {
+		    $('div').addClass('blue');
+		    $('div').mouseleave(function() {
+		    $('div').removeClass('blue');
+		    });
+		    });
+
+
+b. 
+
+		Q: Using on(), change the color of our square to green when a user clicks on the square. 
+
+		A: Within the document.ready function, we'll use on() to bind the click event to our target, and pass in the function that adds the green class. 
+
+		$('div').on('click', function() {
+		    $('div').addClass('green');
+		    });
+
+
+c. 
+
+		Q: Use an event to change the color of the square to the class yellow, and double its current size.  
+
+		A: Within document.ready, we'll use the custom JQuery event to and pass in our yellow class, which doubles the square's size. 
+
+
+		 $('div').dblclick(function() { 
+		    $('div').addClass('yellow');
+		    });
+
+
+
+d. 
+
+		Q: Use a keystroke to fade out are yellow square, in 3000 milliseconds. 
+
+		A: Within document.ready, we'll use the custom JQuery keydown event to pass in our fadeOut function on our target div, for the duration of 3000 milliseconds. 
+
+    $(this).keydown(function(){
+    $('div').fadeOut(3000);
+    });
+    
+
+
